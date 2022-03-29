@@ -1,0 +1,32 @@
+.headerOption {
+  margin-right: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: gray;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  transition: all 0.2s ease-in;
+  width: 55px;
+}
+
+.headerOption:hover {
+  color: black;
+  background-color: #eee;
+}
+
+.headerOption > .MuiSvgIcon-root {
+  font-size: 30px;
+}
+
+.headerOption > .MuiAvatar-root {
+  object-fit: contain;
+  width: 30px !important;
+  height: 30px !important;
+}
+
+.headerOption__title {
+  font-size: 10px;
+  font-weight: 300;
+}
